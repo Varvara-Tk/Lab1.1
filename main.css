@@ -1,0 +1,263 @@
+ body{
+         background-color: #DADADA;
+    }
+            
+   .box{
+    margin-top: 10%;
+    display: flex;
+  flex-wrap: wrap;
+    justify-content:space-between;
+    width :99%;
+    
+     background: #DADADA;
+    
+}
+
+          ul{
+                margin-bottom: 2px ;
+                padding:0;
+                list-style: none;
+            }
+            
+            .containerOne{
+             background: white;
+        width:55%;
+        height: auto;
+         margin-left: 5%;
+         border: rgba(34,36,38,.15);
+  border-radius: 4px;
+        
+            }
+            
+     
+            .containerTwo{
+       
+        background: white;
+        width:30%;
+        height:auto;
+         margin-right: 5%;
+         border: none;
+  border-radius: 4px;
+            }
+
+input[type=text], select {
+  float:left;
+  width: 81%;
+  padding: 12px 5px;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  margin: 8px 0;
+  margin-left: 2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  box-sizing: border-box;
+  color:  rgba(34,36,38,.15);
+}
+
+button[type=submit] {
+    float:right;
+   background-color: #2185D0;
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+    box-shadow: 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+  width: 15%;
+  font-weight: bold;
+  padding: 13px 15px;
+  margin: 8px 0;
+     margin-right: 2%;
+  border: none;
+   border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+  background-color:white;
+}
+
+
+ #ItemList li{
+                display:flex;
+                flex-direction: row;
+                justify-content:space-between;
+                background: white;
+                border-top: 1px solid rgba(34,36,38,.15);
+                width:98%;
+                padding-left:2%;
+                height: 40px;
+                margin:none;
+               
+            }
+
+ button[class=removeAll]{
+                 display: inline-block;
+                 width:30px;
+                 height: 30px;
+                 border: none;
+                 border-radius: 4px;
+                 background-color: #DB2828;
+                 color: #FFF;
+                 font-weight: bold;
+                
+                
+            }
+            
+button[class=purchased]{
+    height: 30px;
+    width: 50%;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+    color: rgba(0,0,0,.6);
+    margin-left: 2%;
+    text-shadow: none;
+    line-height: 1em;
+    text-align: center;
+    border-radius: .4em;
+    margin-right: 5%;
+          
+
+}
+
+
+ button[class=remove-one]{
+                 width:25px;
+                 height: 25px;
+                 border: none;
+                 font-size: 20px;
+                 border-radius: 20px;
+                 background-color: #DB2828;
+                 color: #FFF;
+                 
+               
+    
+            }
+              button[class=add-one]{
+                 width:25px;
+                 height: 25px;
+                 border: none;
+                 font-size: 20px;
+                 border-radius: 20px;
+                 background-color:  #21BA45;;
+                 color: #FFF;
+                
+            }
+div.r {
+    display:inline-flex;
+    justify-content: flex-end;
+    width:150px;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+div.c {
+    display:inline-flex;
+    width:90px;;
+    justify-content:space-between;
+  
+    margin-top: 1%;
+}
+div.l{
+    width:15%;
+    margin-top: 1%;
+    padding-top: 5px;
+}
+
+.numberCell{
+                 display: inline-block;
+                 text-align:center;
+                 width:25px;
+                 height: 23px;
+                 border: none;
+                 border-radius: 4px;
+                 background-color: #E8E8E8;
+                 color: rgba(0,0,0,.6);
+                 padding-top: 3px;
+                 margin: 1%;
+                
+}
+
+  button[class=notPurchased]{
+    width: 90px; 
+    height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+    color: rgba(0,0,0,.6);
+    margin-left: 2%;
+    text-shadow: none;
+    line-height: 1em;
+    text-align: center;
+    border-radius: .4em;
+    margin-right: 3%;
+    
+    
+            }
+
+.strikethroughText{
+    text-decoration: line-through;}
+.Zal{
+    height:30px;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+}
+.leftList{
+   margin-left:5%;
+ font-size: 1.28rem;
+    font-weight: 700;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  color: rgba(0,0,0,.87);
+
+}
+
+.BoughtListOfProduct {
+   margin-left:5%;
+   
+ font-size: 1.28rem;
+    font-weight: 700;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  color: rgba(0,0,0,.87);
+    
+}
+.Kupleno{
+     height:50px;
+     border-bottom: 1px solid rgba(34,36,38,.15);
+     border-top: 1px solid rgba(34,36,38,.15);
+    
+}
+
+#LeftToBuyList li{
+    display: inline-block;
+    padding: 5px;
+}
+#boughtList li{
+    display: inline-block;
+    padding: 5px;
+}
+.product-item {
+	background-color:#E8E8E8;;
+	display: inline-block;
+	height: 25px;
+	padding-top: 5px;
+    padding-left: 5px;
+     padding-right: 5px;
+	border-radius: 5px;
+    vertical-align: middle;
+}
+
+.amount {
+    background-color: #F2711C!important;
+    border-color: #F2711C!important;
+    color: #FFF!important;
+	border-radius: 10px;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+}
+© 2021 GitHub, Inc.
