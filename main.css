@@ -52,7 +52,6 @@ input[type=text], select {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   box-sizing: border-box;
-  color:  rgba(34,36,38,.15);
 }
 
 button[type=submit] {
