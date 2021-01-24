@@ -156,7 +156,7 @@ div.r {
     justify-content: flex-end;
     width:150px;
     margin-right: 2%;
-    margin-top: 1%;
+    margin-top: 5px;
 }
 div.c {
     display:inline-flex;
